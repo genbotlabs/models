@@ -1,0 +1,4 @@
+.env
+CER_test/output/
+CER_test/wandb/
+finetuning/model/

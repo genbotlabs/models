@@ -16,7 +16,7 @@ hf_token = os.getenv("HF_TOKEN")
 wandb.login(key=wandb_api_key)
 
 # ✅ 설정
-MODEL_NAME = "kimthegarden/whisper-korean-stt-v2-250626"
+MODEL_NAME = "kimthegarden/whisper-small-ko-low-qual-voice"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 DATA_PATH = "/workspace/path_and_transcript_validation.csv"   # 평가용 CSV 파일 경로
 SAVE_CSV = True                     # 결과 CSV 저장 여부

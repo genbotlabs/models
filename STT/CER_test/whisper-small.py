@@ -13,9 +13,7 @@ load_dotenv()
 wandb_api_key = os.getenv("WANDB_API_KEY")
 hf_token = os.getenv("HF_TOKEN")
 
-
 wandb.login(key=wandb_api_key)
-
 
 # ✅ 설정
 MODEL_NAME = "openai/whisper-small"

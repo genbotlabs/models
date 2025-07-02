@@ -4,6 +4,8 @@ files = [
     "whisper-small.py",
     "whisper-small-ko.py",
     "whisper-small-jw.py",
+    "whisper-small-low-qual-voice.py",
+    "jasper.py",
 ]
 
 for f in files:
